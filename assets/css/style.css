@@ -5,7 +5,7 @@ body {
     margin: 1rem;
     background-image: url('https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100%;
 }
 
 h1 {
@@ -99,7 +99,6 @@ footer {
     }
     body {
         margin-top: 10rem;
-        height: auto;
     }
 }
 
