@@ -28,6 +28,7 @@ button:hover {
     background: rgb(239, 207, 241);
     cursor: pointer;
     color: rgb(85, 5, 58);
+    transform: scale(1.1);
 }
 
 input[type='text'],
@@ -46,6 +47,7 @@ input[type='text']:focus,
 [type='password']:focus {
     outline: 0;
     box-shadow: 1px 2px 10px rgb(116, 114, 114);
+    transform: scale(1.05);
 }
 .button-div {
     display: flex;
