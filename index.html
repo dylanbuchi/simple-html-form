@@ -17,15 +17,20 @@
             <form action="./assets/pages/success.html" class="form-container">
                 <div>
                     <label for="username">Username</label>
-                    <input id="username" type="text" />
+                    <input id="username" type="text" required maxlength="30" />
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input id="email" type="email" />
+                    <input id="email" type="email" required maxlength="30" />
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input id="password" type="password" />
+                    <input
+                        id="password"
+                        type="password"
+                        required
+                        maxlength="30"
+                    />
                 </div>
                 <div class="button-div">
                     <button type="submit">Submit</button>
