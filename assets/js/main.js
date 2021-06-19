@@ -29,8 +29,8 @@ disableElement(submitBtn);
 
 // alert a message when the user clicks on the reset button when input fields are empty
 resetBtn.addEventListener('click', () => {
-    if (isEmpty(username) && isEmpty(email)) {
-        alert('Empty!');
+    if (isEmpty(username) && isEmpty(email) && isEmpty(password)) {
+        alert('Nothing to clear!');
     }
 });
 
